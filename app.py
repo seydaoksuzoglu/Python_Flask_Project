@@ -1,7 +1,6 @@
 # Gerekli kütüphaneleri import edelim
 from flask import Flask, render_template
 import cv2
-!pip install flask ultralytics
 from ultralytics import YOLO
 
 # Flask uygulamasını başlat
