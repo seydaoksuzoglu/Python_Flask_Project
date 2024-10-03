@@ -6,7 +6,7 @@ import cv2
 app = Flask(__name__, template_folder='apps-20241002T205536Z-001/apps/templates', static_folder='static-20241002T210124Z-001/static')
 
 # Resim işleme fonksiyonu
-def process_image():
+def process_images():
 
     cv2.imwrite('static-20241002T210124Z-001/static/image_1.jpg', image_1)
 
