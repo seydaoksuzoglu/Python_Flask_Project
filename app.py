@@ -1,6 +1,6 @@
 # Gerekli kütüphaneleri import edelim
 from flask import Flask, render_template
-
+import cv2
 
 # Flask uygulamasını başlat
 app = Flask(__name__, template_folder='apps-20241002T205536Z-001/apps/templates', static_folder='static-20241002T210124Z-001/static')
