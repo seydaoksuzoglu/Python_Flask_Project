@@ -11,13 +11,13 @@ def process_images():
     image_1_path = "images-20241002T205543Z-001/images/akhand_b43_325_jpg.rf.583eea641ed8fb6893d946b671c2348b.jpg"
     image_1 = cv2.imread(image_1_path)
 
-    cv2.imshow('static-20241002T210124Z-001/static/image_1.jpg', image_1)
+    cv2.imwrite('static-20241002T210124Z-001/static/image_1.jpg', image_1)
 
     image_2_path = "images-20241002T205543Z-001/images/akhand_b43_345_jpg.rf.21fb0de29feb94e89adfb699801ab1d8.jpg"
     image_2 = cv2.imread(image_2_path)
 
 
-    cv2.imshow('static-20241002T210124Z-001/static/image_2.jpg', image_2)
+    cv2.imwrite('static-20241002T210124Z-001/static/image_2.jpg', image_2)
 
 @app.route('/')
 def home():
