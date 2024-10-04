@@ -17,7 +17,7 @@ def process_images():
     image_2 = cv2.imread(image_2_path)
 
 
-    cv2.imwrite('static-20241002T210124Z-001/static/image_2.jpg', image_2)
+    cv2.imwrite('static/image_2.jpg', image_2)
 
 @app.route('/')
 def home():
